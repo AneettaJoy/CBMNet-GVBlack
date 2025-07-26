@@ -1,4 +1,5 @@
 # CBMNet-GVBlack
 [![DOI](https://zenodo.org/badge/1026550766.svg)](https://doi.org/10.5281/zenodo.16436222)
+
 Dual-Attention ConvNeXt model for G.V. Black Type I–III caries classification in dental radiographs.
 CBMNet is a deep learning model based on a dual-attention enhanced ConvNeXt-Tiny architecture, designed for accurate classification of dental caries in intraoral periapical radiographs. This work focuses on G.V. Black Classes I–III and integrates CBAM and MSAM attention mechanisms for improved feature localization. The model also incorporates synthetic training data generated using StyleGAN2-ADA and is optimized using Particle Swarm Optimization (PSO), achieving high classification performance validated through 5-fold cross-validation. This repository provides source code, sample notebooks, and usage instructions to support reproducibility and further research.
